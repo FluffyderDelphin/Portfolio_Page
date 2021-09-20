@@ -1,0 +1,69 @@
+
+:root {
+
+
+    --margin-header-media-offset:350px;
+
+
+
+}
+
+/* Header Media Layout */
+
+header{
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+
+}
+#header-menu{
+    margin: 15px;
+}
+
+.header-logo{
+    margin-left: 0;
+}
+
+#header-menu{
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.profile-container{
+    flex-direction: column;
+    margin-top: var(--margin-header-media-offset);
+}
+
+.about-container{
+    margin-top: var(--margin-header-media-offset)
+
+}
+.work-container{
+    min-width: 90%;
+    margin-top: var(--margin-header-media-offset)
+}
+
+.profile-image{
+    margin-right: 0;
+}
+
+/* Work Media Layout */
+
+.work-grid{
+    grid-template-columns: 2fr;
+}
+
+
+/* Contact Media  */
+.contact-container{
+    margin-top: var(--margin-header-media-offset)
+}
+#contact_form{
+    width: auto;
+    padding: 15px 20px;
+}
+
+.animation-container{
+    margin-top: var(--margin-header-media-offset)
+}

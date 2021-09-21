@@ -366,9 +366,9 @@ main{
 
 .animation-link:hover,.animation-link:focus{
     font-weight: var(--font-weight-middle);
-    border-color:none
+    border:none;
 
-    
+
 }
 
 

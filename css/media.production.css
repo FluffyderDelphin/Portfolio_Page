@@ -27,6 +27,37 @@ header{
     margin-left: 0;
 }
 
+
+:root {
+
+
+    --margin-header-media-offset:350px;
+
+
+
+}
+
+/* Header Media Layout */
+
+header{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 20px 0;
+
+}
+#header-menu{
+    margin: 15px;
+}
+
+.header-logo{
+    margin-left: 0;
+}
+
 #header-menu{
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -43,16 +74,16 @@ header{
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 350px;
+    margin-top: var(--margin-header-media-offset);
 }
 
 .about-container{
-    margin-top: 350px
+    margin-top: var(--margin-header-media-offset)
 
 }
 .work-container{
     min-width: 90%;
-    margin-top: 350px
+    margin-top: var(--margin-header-media-offset)
 }
 
 .profile-image{
@@ -64,6 +95,20 @@ header{
 .work-grid{
     -ms-grid-columns: 2fr;
     grid-template-columns: 2fr;
+}
+
+
+/* Contact Media  */
+.contact-container{
+    margin-top: var(--margin-header-media-offset)
+}
+#contact_form{
+    width: auto;
+    padding: 15px 20px;
+}
+
+.animation-container{
+    margin-top: var(--margin-header-media-offset)
 }
 
 

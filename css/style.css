@@ -328,7 +328,8 @@ main{
 }
 
 #contact_form textarea{
-    padding: 60px;
+    padding: 8px;
+    min-height: 300px;
 }
 #contact_form button{
     margin: 40px 0;

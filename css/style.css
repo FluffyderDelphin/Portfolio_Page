@@ -210,17 +210,25 @@ header a:visited{
 #header-menu li a:hover{
    transform:translateY(2px) ;
  }
-.header-logo{
+
+.header-icon{
+   display: flex;
+   margin-left: 100px;
+}
+
+.header-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 100px;
-}
+ }
+ 
+ .header-icon h1{
+    margin-left: 10px;
+    font-size:var(--font-size-middle);
+ }
+ 
 
-
-.icon-container i{
-    cursor: pointer;
-    margin: 0 10px;
-    margin-top: 7px;
-    color: var(--link-color);
-}
 
 /* Layout Profile */
 
@@ -256,6 +264,13 @@ footer{
 .profile-text{
     text-align: center;
     flex-direction: column;
+}
+
+.icon-container i{
+    cursor: pointer;
+    margin: 0 10px;
+    margin-top: 7px;
+    color: var(--link-color);
 }
 /* Layout */
 

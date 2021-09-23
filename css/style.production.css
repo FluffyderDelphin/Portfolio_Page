@@ -426,7 +426,9 @@ main{
     text-align: center;
     width: 500px;
 }
-
+.contact-form{
+    text-align: center;
+}
 #contact_form label,#contact_form input,#contact_form textarea{
    margin-bottom: 10px;
 }

@@ -334,6 +334,45 @@ main{
 #contact_form button{
     margin: 40px 0;
 }
+
+
+/* Table Styling */
+
+.table-content{
+    border-collapse: collapse;
+    margin: 25px;
+    font-size: var(--font-size-small);
+    min-width: 400px;
+    text-align: left;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.table-content thead tr{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: var(--font-weight-big);
+
+}
+.table-content th,
+.table-content td {
+    padding: 10px 15px;
+}
+
+.table-content tbody tr{ 
+    border-bottom: 2px solid rgb(201, 201, 201);
+
+}
+
+.table-content tbody tr:nth-of-type(even){
+  background-color: rgb(228, 228, 228);
+}
+.table-content tbody tr:last-of-type{
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+
+
     /* Layout Work */
 
 .work-container{

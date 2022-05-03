@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio|Home</title>
-    <link rel="shortcut icon" href="img/wikipedia.ico" />
+    <!-- <link rel="shortcut icon" href="img/wikipedia.ico" /> -->
     <link href="fa/css/all.css" rel="stylesheet" />
     <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css"> -->
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.production.css" /> -->
     <link
       rel="stylesheet"
       type="text/css"
@@ -27,17 +28,15 @@
       </a>
       <nav>
         <ul role="menubar" id="header-menu">
-          <li role="presentation" class="nav_item_current">
-            <a href="index.html">Home</a>
-          </li>
-          <li role="presentation"><a href="about.html">About Me</a></li>
-          <li role="presentation"><a href="work.html">Work</a></li>
-          <li role="presentation"><a href="contact.html">Contact</a></li>
+          <li role="presentation"><a href="#hero">Home</a></li>
+          <li role="presentation"><a href="#about">About Me</a></li>
+          <li role="presentation"><a href="#work">Work</a></li>
+          <li role="presentation"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
-    <main class="profile-container">
+    <main class="profile-container" id="hero">
       <div class="item">
         <img
           src="img/profile_picture_of_me.jpg"
@@ -52,6 +51,142 @@
           <span>Web</span> Developer from Germany.
         </p>
         <a href="work.html"> Check out some of my Code !</a>
+      </section>
+    </main>
+
+    <main class="about-container" id="about">
+      <h1>About Me</h1>
+      <section class="about-table">
+        <h2>My Skills so far</h2>
+        <table class="table-content">
+          <thead>
+            <tr>
+              <th>Knowledge</th>
+              <th>Level</th>
+              <th>Aditional</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>Intermediate</td>
+              <td>HTML 5</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Basic</td>
+              <td>basic Sass</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>Basic</td>
+              <td>basic ES6</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="about-hobbies">
+        <h2>My Hobbies</h2>
+        <ul>
+          <li>Coding</li>
+          <li>Drawing</li>
+          <li>Gaming</li>
+          <li>Reading</li>
+          <li>Podcasts</li>
+        </ul>
+      </section>
+
+      <div class="about-cv">
+        <a href="files/CV-Template.txt" class="button" download="">
+          <span class="span-test">
+            Download my CV!
+          </span>
+        </a>
+      </div>
+    </main>
+
+    <main class="work-container" id="work">
+      <h1>My Work</h1>
+      <section class="work-grid">
+        <a href="animation.html" class="animation-link">
+          <div class="grid-item">
+            <h2>Animation</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              corrupti quibusdam velit eius sed pariatur dicta. Tempora ut,
+              illum a consequuntur sit magni eveniet quis assumenda enim
+              voluptas nam, mollitia provident vitae dolorum dolor veritatis,
+              incidunt itaque voluptates. Velit iste aliquid voluptatibus iure
+              veniam eum repudiandae quos voluptas quibusdam non.
+            </p>
+          </div>
+        </a>
+        <div class="grid-item">
+          <h2>Work Example#2</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+            corrupti quibusdam velit eius sed pariatur dicta. Tempora ut, illum
+            a consequuntur sit magni eveniet quis assumenda enim voluptas nam,
+            mollitia provident vitae dolorum dolor veritatis, incidunt itaque
+            voluptates. Velit iste aliquid voluptatibus iure veniam eum
+            repudiandae quos voluptas quibusdam non.
+          </p>
+        </div>
+        <div class="grid-item">
+          <h2>Work Example#3</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+            corrupti quibusdam velit eius sed pariatur dicta. Tempora ut, illum
+            a consequuntur sit magni eveniet quis assumenda enim voluptas nam,
+            mollitia provident vitae dolorum dolor veritatis, incidunt itaque
+            voluptates. Velit iste aliquid voluptatibus iure veniam eum
+            repudiandae quos voluptas quibusdam non.
+          </p>
+        </div>
+        <div class="grid-item">
+          <h2>Work Example#4</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+            corrupti quibusdam velit eius sed pariatur dicta. Tempora ut, illum
+            a consequuntur sit magni eveniet quis assumenda enim voluptas nam,
+            mollitia provident vitae dolorum dolor veritatis, incidunt itaque
+            voluptates. Velit iste aliquid voluptatibus iure veniam eum
+            repudiandae quos voluptas quibusdam non.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <main class="contact-container" id="contact">
+      <h1>Contact</h1>
+
+      <section class="bg-primary contact-text">
+        <h2>My Information</h2>
+        Alexander Ulrich<br />
+        Beberitzenweg 8<br />
+        70435 Frankfurt am Main<br />
+        Deutschland<br />
+        <br />
+        <a href="tel:+491734116995">Tel +49 1734116995</a> <br />
+        <a href="skype:ulrichalex12">Skype live:ulrichalex12</a> <br />
+        <a href="mailto:Ulrichalex12@yahoo.de">Ulrichalex12@yahoo.de</a>
+      </section>
+
+      <section class="bg-secondary contact-form">
+        <h2>Get in Contact!</h2>
+        <form method="post" id="contact_form">
+          <label for="email">E-Mail:</label>
+          <input id="email" type="email" required />
+
+          <label for="tel">Telephone:</label>
+          <input id="tel" type="tel" />
+
+          <label for="con_text">Message</label>
+          <textarea id="con_text" maxlength="240" required></textarea>
+
+          <button type="submit"><span>Submit!</span></button>
+        </form>
       </section>
     </main>
 

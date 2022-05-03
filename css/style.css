@@ -167,6 +167,10 @@ a:active {
 }
 
 /* Card Styling  */
+.card-body{
+    margin: 40px 0;
+    text-align: center;
+}
 
 .card-footer{
     display: flex;

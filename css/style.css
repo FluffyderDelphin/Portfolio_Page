@@ -12,9 +12,9 @@
     --link-color:#000;
     --link-color-light:rgb(240, 240, 240);
 
-    --font-size-big:40px;
-    --font-size-middle:30px;
-    --font-size-small:20px;
+    --font-size-big:3rem;
+    --font-size-middle:2rem;
+    --font-size-small:1.3rem;
 
     --font-weight-big:700;
     --font-weight-middle:400;
@@ -247,6 +247,10 @@ header a:visited{
     width: 250px;
     margin-right: 40px;
     border-radius: 50%;
+}
+
+.profile-text h2{
+    font-size: 4rem;
 }
 
 

@@ -29,6 +29,9 @@
 html {
     scroll-behavior: smooth;
   }
+  img{
+      max-width: 100%;
+  }
 
 *{
     box-sizing: border-box;
@@ -163,6 +166,25 @@ a:active {
     color: var(--text-secondary-color);
 }
 
+/* Card Styling  */
+
+.card-footer{
+    display: flex;
+    border-top: 1px solid white ;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px;
+
+}
+.card-footer a{
+ color: white;
+}
+.card-image{
+    max-width: 500px;
+    margin: 0 auto;
+    
+}
 
 /* Color Classes  */
 

@@ -185,6 +185,15 @@ a:active {
     margin: 0 auto;
     
 }
+.card-footer-link{
+
+    display: flex;
+    align-items: center;
+}
+.card-footer-link i{
+  margin-right: 16px;
+}
+
 
 /* Color Classes  */
 

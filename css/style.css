@@ -182,18 +182,22 @@ a:active {
 
 }
 .card-footer a{
- color: white;
+ color: #fff
 }
 .card-image{
     max-width: 500px;
     margin: 0 auto;
     
 }
-.card-footer-link{
-
+.card-footer-link a{
     display: flex;
     align-items: center;
 }
+
+.card-footer-link a:hover{
+    color: rgb(211, 218, 228)
+}
+
 .card-footer-link i{
   margin-right: 16px;
 }

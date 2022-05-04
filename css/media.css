@@ -22,7 +22,9 @@
     display: none;
     width: 100%;
 }
-
+.nav-logo h1{
+    font-size: 2rem;
+}
 .nav-links ul {
     width: 100%;
     flex-direction: column;
@@ -59,12 +61,16 @@
     margin-right: 0;
 }
 
+.skills{
+    flex-direction: column;
+}
 
 /* Work Media Layout */
 
 .work-grid{
     grid-template-columns: 2fr;
 }
+
 
 
 /* Contact Media  */

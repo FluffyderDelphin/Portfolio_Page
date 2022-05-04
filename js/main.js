@@ -1,14 +1,20 @@
-// Check Active Nabar Item
 
+// Check Active Nabar Item
 const mainseactions = document.querySelectorAll('main');
 const navLi = document.querySelectorAll('nav ul li');
 
-window.addEventListener('scroll', () => {
+function resizeCallback(){
+  mainseactions.forEach(main => {    
+    main.style.minHeight = (window.innerHeight) + 'px';
+  })
+}
+
+function setCurrentNavItem(){
   let current = '';
   mainseactions.forEach((section) => {
     const seactionTop = section.offsetTop;
-    const sectionHeigth = section.clientHeight;
-    if (scrollY >= seactionTop - sectionHeigth / 3) {
+    console.log(scrollY);
+    if (scrollY >= seactionTop) {
       current = section.getAttribute('id');
     }
   });
@@ -19,10 +25,26 @@ window.addEventListener('scroll', () => {
       li.classList.add('nav_item_current');
     }
   });
-});
+}
+
+/** 
+ * this is just to call the resize callback when the document
+ * is loaded because `resize` event doesn't trigger when the document
+ * is first opened
+*/
+resizeCallback();
+window.addEventListener('resize', resizeCallback);
+
+
+/** 
+ * this is just to call the scroll callback when the document
+ * is loaded because `scroll` event doesn't trigger when the document
+ * is first opened
+*/
+setCurrentNavItem();
+window.addEventListener('scroll', setCurrentNavItem);
 
 // Show and Hide Totally11
-
 window.addEventListener('keypress', (e) => {
   if (e.key === 't') {
     let tota11y = document.querySelector('#tota11y-toolbar');

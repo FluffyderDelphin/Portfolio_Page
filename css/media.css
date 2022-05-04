@@ -67,10 +67,13 @@
 
 /* Work Media Layout */
 
-.work-grid{
-    grid-template-columns: 2fr;
+.card-grid{
+    grid-template-columns: 1fr;
 }
 
+.card-list{
+    flex-direction: column;
+}
 
 
 /* Contact Media  */

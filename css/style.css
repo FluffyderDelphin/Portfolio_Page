@@ -130,42 +130,6 @@ h3 {
     color: var(--text-secondary-color);
 }
 
-/* Card Styling  */
-.card-body{
-    margin: 40px 0;
-    text-align: center;
-}
-
-.card-footer{
-    display: flex;
-    border-top: 1px solid white ;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 20px;
-    gap: 10px;
-
-}
-.card-footer a{
- color: #fff
-}
-.card-image{
-    max-width: 500px;
-    margin: 0 auto;
-    
-}
-.card-footer-link a{
-    display: flex;
-    align-items: center;
-}
-
-.card-footer-link a:hover{
-    color: rgb(211, 218, 228)
-}
-
-.card-footer-link i{
-  margin-right: 16px;
-}
-
 
 /* Color Classes  */
 
@@ -256,8 +220,8 @@ a:active {
 
  .ham-toggle{
      position: absolute;
-     top: 2rem;
-     right: 1rem;
+     top: 1rem;
+     right: 2rem;
      display: none;
      flex-direction: column;
      justify-content: space-between;
@@ -480,38 +444,106 @@ main{
     /* Layout Work */
 
 .work-container{
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     /* justify-content: center; */
-    align-items:center ;
-    text-align: center;
+    /* align-items:center ;
+  
     /* max-width: 50%; */
     margin: 0 auto;
     padding-top: var(--padding-header-offset);
+    text-align: center; 
 }
 
-.work-grid{
+.card-grid{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 20px;
-    column-gap: 10px;
-    margin-top: 50px;
+    gap: 20px;
 
 }
+.card {
+    border:3px solid hotpink;
+    background-color: var(--secondary-color);
+    color: var(--text-secondary-color);
+    padding: 1rem;
+}
 
-.work-tech{
+.card-img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.card-list{
+    display: flex;
+    justify-content: space-around;
+    margin:30px 0;
+}
+.card-footer{
+    display: flex;
+    border-top: 1px solid white ;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px;
+
+}
+.card-footer a{
+    color: var(--text-secondary-color)
+   }
+.card-footer a:hover{
+   color: rgb(15, 13, 52)
+ }
+
+/* .work-tech{
     padding-top: 40px;
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-around;
     align-items: center;
     list-style: square;
     gap: 60px;
+} */
+
+
+/* Card Styling  */
+/* .card-body{
+    margin: 40px 0;
+    text-align: center;
 }
+
+.card-footer{
+    display: flex;
+    border-top: 1px solid white ;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px;
+
+}
+.card-footer a{
+ color: #fff
+}
+.card-image{
+    max-width: 500px;
+    margin: 0 auto;
+    
+}
+.card-footer-link a{
+    display: flex;
+    align-items: center;
+}
+
+.card-footer-link a:hover{
+    color: rgb(211, 218, 228)
+}
+
+.card-footer-link i{
+  margin-right: 16px;
+} */
 
 
 /* Grid Fallback  */
-.grid-item{
+/* .grid-item{
     display: inline-block;
     width: 33%;
 }
@@ -530,6 +562,6 @@ main{
     margin-bottom: 20px;
 }
 
-
+ */
 
 

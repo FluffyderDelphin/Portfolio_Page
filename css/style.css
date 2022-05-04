@@ -454,7 +454,9 @@ main{
     padding-top: var(--padding-header-offset);
     text-align: center; 
 }
-
+.work-title{
+   padding-bottom: 4rem;
+}
 .card-grid{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -462,10 +464,10 @@ main{
 
 }
 .card {
-    border:3px solid hotpink;
     background-color: var(--secondary-color);
     color: var(--text-secondary-color);
-    padding: 1rem;
+    padding: 1rem 2rem;
+    padding-top: 2.5rem;
 }
 
 .card-img{

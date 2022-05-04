@@ -385,6 +385,13 @@ main{
     padding: 4rem 0;
 }
 
+.about-hobbies{
+    margin-top: 30px;
+}
+.about-cv{
+    margin-top: 30px;
+}
+
 /* Layout Contact  */
 .contact-container {
     display: flex;
@@ -394,12 +401,13 @@ main{
     padding-top: var(--padding-header-offset);
 
 }
-.about-hobbies{
-    margin-top: 30px;
+.contact-links{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-.about-cv{
-    margin-top: 30px;
-}
+
 .contact-text{
     margin-bottom: 50px;
     text-align: center;

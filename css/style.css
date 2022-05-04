@@ -154,8 +154,8 @@ a:active {
  .button:hover,button:hover{
     cursor: pointer;
      /* opacity: 0.9;  */
-     transform: scale(0.99);
-    box-shadow: 0px 0px 0px rgba(46, 46, 46, 0.795);
+     transform: scale(0.99) !important;
+    box-shadow: 0px 0px 0px rgba(46, 46, 46, 0.795) !important;
 } 
 
 .button a,button a{
@@ -349,10 +349,16 @@ main{
     margin-top:var(--margin-header-offset);
     padding-top: 46px;
 }
+
+.about-cv .button{
+    background-color: var(--text-primary-color);
+    box-shadow: 0px 12px 0px rgba(32, 59, 133, 0.795);
+}
 .about-table{
     margin-top: 50px;
 }
 .about-text{
+    margin-top: 40px;
     text-align: center;
     color: var(--link-color);
     font-size: 1.7rem;
@@ -473,18 +479,13 @@ main{
 
 }
 
-.animation-link{
-    font-size:var(--font-size-small);
-    cursor: pointer;
-    font-weight: var(--font-weight-middle);
-    border-bottom: none;
-}
-
-.animation-link:hover,.animation-link:focus{
-    font-weight: var(--font-weight-middle);
-    border:none;
-
-
+.work-tech{
+    padding-top: 40px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    list-style: square;
 }
 
 

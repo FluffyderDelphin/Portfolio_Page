@@ -1,15 +1,14 @@
-
 // Check Active Nabar Item
 const mainseactions = document.querySelectorAll('main');
 const navLi = document.querySelectorAll('nav ul li');
 
-function resizeCallback(){
-  mainseactions.forEach(main => {    
-    main.style.minHeight = (window.innerHeight) + 'px';
-  })
+function resizeCallback() {
+  mainseactions.forEach((main) => {
+    main.style.minHeight = window.innerHeight + 'px';
+  });
 }
 
-function setCurrentNavItem(){
+function setCurrentNavItem() {
   let current = '';
   mainseactions.forEach((section) => {
     const seactionTop = section.offsetTop;
@@ -27,20 +26,19 @@ function setCurrentNavItem(){
   });
 }
 
-/** 
+/**
  * this is just to call the resize callback when the document
  * is loaded because `resize` event doesn't trigger when the document
  * is first opened
-*/
+ */
 resizeCallback();
 window.addEventListener('resize', resizeCallback);
 
-
-/** 
+/**
  * this is just to call the scroll callback when the document
  * is loaded because `scroll` event doesn't trigger when the document
  * is first opened
-*/
+ */
 setCurrentNavItem();
 window.addEventListener('scroll', setCurrentNavItem);
 
@@ -51,4 +49,12 @@ window.addEventListener('keypress', (e) => {
     if (tota11y.style.display === 'none') tota11y.style.display = 'block';
     else tota11y.style.display = 'none';
   }
+});
+
+// Toggling Hamburger Menu
+const toggleBtn = document.getElementsByClassName('ham-toggle')[0];
+const navbarLinks = document.getElementsByClassName('nav-links')[0];
+
+toggleBtn.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active');
 });

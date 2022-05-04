@@ -200,28 +200,78 @@ a {
    transition-property: border-color,transform,scale;
 }
 
-a:visited {
+/* a:visited {
   color: #6b6b6b;
-}
+} */
 
 a:active {
    color:var(--link-color);
  }
 
-#header-menu a:hover,#header-menu a:hover {
+/* #header-menu a:hover,#header-menu a:hover {
    font-weight: var(--font-weight-big);
    border-color: rgba(255, 255, 255,255);
    
-}
+} */
+
 .profile-container a:hover,.about-container a:hover,.contact-container a:hover{
    font-weight: var(--font-weight-big);
 }
 
 
-.nav_item_current {
-   font-weight: var(--font-weight-big);
-   border-color: rgba(255, 255, 255,255);
+
+/* Navbar Styling  */
+ .navbar{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .nav_item_current {
+    font-weight: var(--font-weight-big);
+    border-color: rgba(255, 255, 255,255);
+ }
+ .nav-links ul{
+     display: flex;
+ }
+ /* .nav-links li{
+     padding: 1rem;
+ } */
+ .nav-links li a {
+     padding: 1rem;
+     display: block;
+ }
+.nav-links li:hover {
+  background-color: #3256b9;
 }
+ .nav-logo{
+     display: flex;
+     align-items: center;
+     gap: 20px;
+
+ }
+ .nav-logo h1{
+     font-size: 3rem;
+ }
+
+ .ham-toggle{
+     position: absolute;
+     top: 4rem;
+     right: 2rem;
+     display: none;
+     flex-direction: column;
+     justify-content: space-between;
+     width: 30px;
+     height: 21px;
+ }
+
+.ham-toggle .bar{
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
 
 /* Layout Header */
 
@@ -230,11 +280,6 @@ header {
    top:0px;
    width: 100%;
    color: var(--link-color-light);
-
-   display:flex;
-   align-items: center;
-   justify-content: space-between;
-   padding: 25px 0;
 
 }
 header a{
@@ -245,38 +290,12 @@ header a:visited{
    color: var(--link-color-light);
 }
 
-#header-menu{
-   display: flex;
-   margin-right:150px ;
-}
-
-#header-menu li{
-  padding: 10px;
-  margin: 0 20px;
-}
 #header-menu li a{
     transition-duration: 0.3s;
  }
 
 #header-menu li a:hover{
   transform:translateY(2px) ;
-}
-
-.header-icon{
-  display: flex;
-  margin-left: 100px;
-}
-
-.header-icon{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-left: 100px;
-}
-
-.header-icon h1{
-   margin-left: 10px;
-   font-size:var(--font-size-middle);
 }
 
 

@@ -7,28 +7,41 @@
 
 
 }
+/* Nav Media  */
+.ham-toggle{
+    display: flex;
+}
 
-/* Header Media Layout */
+.nav-links{
+  display: none;  
+  width: 100%;
+}
 
-header{
+.nav-logo{
+    padding: 2rem 2rem;
+}
+
+.navbar{
     flex-direction: column;
     justify-content: center;
-    padding: 20px 0;
-
 }
-#header-menu{
-    margin: 15px;
-}
-
-.header-logo{
-    margin-left: 0;
-}
-
-#header-menu{
+.nav-links ul {
+   width: 100%;
     flex-direction: column;
-    justify-content: center;
-
 }
+.nav-links li{
+    text-align: center;
+}
+
+.nav-links li a {
+    padding: 0.7rem 1rem;
+}
+
+.nav-links .active {
+    display: flex;
+}
+
+
 
 .profile-container{
     flex-direction: column;

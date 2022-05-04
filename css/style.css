@@ -444,12 +444,6 @@ main{
     /* Layout Work */
 
 .work-container{
-    /* display: flex;
-    flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items:center ;
-  
-    /* max-width: 50%; */
     margin: 0 auto;
     padding-top: var(--padding-header-offset);
     text-align: center; 
@@ -496,52 +490,6 @@ main{
 .card-footer a:hover{
    color: rgb(15, 13, 52)
  }
-
-/* .work-tech{
-    padding-top: 40px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: square;
-    gap: 60px;
-} */
-
-
-/* Card Styling  */
-/* .card-body{
-    margin: 40px 0;
-    text-align: center;
-}
-
-.card-footer{
-    display: flex;
-    border-top: 1px solid white ;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 20px;
-    gap: 10px;
-
-}
-.card-footer a{
- color: #fff
-}
-.card-image{
-    max-width: 500px;
-    margin: 0 auto;
-    
-}
-.card-footer-link a{
-    display: flex;
-    align-items: center;
-}
-
-.card-footer-link a:hover{
-    color: rgb(211, 218, 228)
-}
-
-.card-footer-link i{
-  margin-right: 16px;
-} */
 
 
 /* Grid Fallback  */

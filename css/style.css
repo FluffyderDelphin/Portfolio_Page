@@ -256,8 +256,8 @@ a:active {
 
  .ham-toggle{
      position: absolute;
-     top: 4rem;
-     right: 2rem;
+     top: 2rem;
+     right: 1rem;
      display: none;
      flex-direction: column;
      justify-content: space-between;

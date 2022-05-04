@@ -2,42 +2,41 @@
 :root {
 
 
-    --margin-header-media-offset:350px;
+    --padding-header-media-offset:350px;
 
 
 
 }
 /* Nav Media  */
-.ham-toggle{
+
+.navbar {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ham-toggle {
     display: flex;
 }
 
-.nav-links{
-  display: none;  
-  width: 100%;
+.nav-links {
+    display: none;
+    width: 100%;
 }
 
-.nav-logo{
-    padding: 2rem 2rem;
-}
-
-.navbar{
-    flex-direction: column;
-    justify-content: center;
-}
 .nav-links ul {
-   width: 100%;
+    width: 100%;
     flex-direction: column;
 }
-.nav-links li{
+
+.nav-links ul li {
     text-align: center;
 }
 
-.nav-links li a {
-    padding: 0.7rem 1rem;
+.nav-links ul li a {
+    padding: .5rem 1rem;
 }
 
-.nav-links .active {
+.nav-links.active {
     display: flex;
 }
 
@@ -53,13 +52,13 @@
 
 }
 .work-container{
-    min-width: 90%;
     margin-top: var(--margin-header-media-offset)
 }
 
 .profile-image{
     margin-right: 0;
 }
+
 
 /* Work Media Layout */
 
@@ -70,7 +69,7 @@
 
 /* Contact Media  */
 .contact-container{
-    margin-top: var(--margin-header-media-offset)
+    padding-top: var(--padding-header-media-offset)
 }
 #contact_form{
     width: auto;
@@ -78,5 +77,5 @@
 }
 
 .animation-container{
-    margin-top: var(--margin-header-media-offset)
+    padding-top: var(--padding-header-media-offset)
 }

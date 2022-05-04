@@ -340,6 +340,7 @@ main{
     text-align: center;
     color: var(--link-color);
     font-size: 1.7rem;
+    padding: 0 1rem;
 }
 .skills{
     color: var(--link-color);

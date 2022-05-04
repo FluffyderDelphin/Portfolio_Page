@@ -462,6 +462,7 @@ main{
     color: var(--text-secondary-color);
     padding: 1rem 2rem;
     padding-top: 2.5rem;
+    border-radius: 10px;
 }
 
 .card-img{
@@ -471,9 +472,13 @@ main{
 }
 
 .card-list{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin:30px 0;
+    gap: 30px;
+}
+.card-list li{
+    border-top: 4px solid white;
 }
 .card-footer{
     display: flex;

@@ -70,6 +70,9 @@
 .card-grid{
     grid-template-columns: 1fr;
 }
+.card-list{
+    grid-template-columns: 1fr;
+}
 
 .card-list{
     flex-direction: column;

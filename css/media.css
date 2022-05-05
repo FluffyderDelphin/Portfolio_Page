@@ -2,33 +2,55 @@
 :root {
 
 
-    --margin-header-media-offset:350px;
+    --padding-header-media-offset:350px;
 
 
 
 }
+/* Nav Media  */
 
-/* Header Media Layout */
-
-header{
+.navbar {
     flex-direction: column;
-    justify-content: center;
-    padding: 20px 0;
-
-}
-#header-menu{
-    margin: 15px;
+    align-items: flex-start;
 }
 
-.header-logo{
-    margin-left: 0;
+.ham-toggle {
+    display: flex;
 }
 
-#header-menu{
+.nav-links {
+    display: none;
+    width: 100%;
+}
+.nav-logo h1{
+    font-size: 1.5rem;
+}
+.nav-logo i {
+    font-size: 2rem;
+}
+.nav-links ul {
+    width: 100%;
     flex-direction: column;
-    justify-content: center;
-
 }
+
+.nav-links ul li {
+    text-align: center;
+}
+
+.nav-links ul li a {
+    padding: .5rem 1rem;
+}
+
+.nav-links.active {
+    display: flex;
+}
+
+.ham-toggle {
+    top: 0.7rem;
+    right: 1.1rem;
+}
+
+
 
 .profile-container{
     flex-direction: column;
@@ -40,7 +62,6 @@ header{
 
 }
 .work-container{
-    min-width: 90%;
     margin-top: var(--margin-header-media-offset)
 }
 
@@ -48,16 +69,27 @@ header{
     margin-right: 0;
 }
 
+.skills{
+    flex-direction: column;
+}
+
 /* Work Media Layout */
 
-.work-grid{
-    grid-template-columns: 2fr;
+.card-grid{
+    grid-template-columns: 1fr;
+}
+.card-list{
+    grid-template-columns: 1fr;
+}
+
+.card-list{
+    flex-direction: column;
 }
 
 
 /* Contact Media  */
 .contact-container{
-    margin-top: var(--margin-header-media-offset)
+    padding-top: var(--padding-header-media-offset)
 }
 #contact_form{
     width: auto;
@@ -65,5 +97,5 @@ header{
 }
 
 .animation-container{
-    margin-top: var(--margin-header-media-offset)
+    padding-top: var(--padding-header-media-offset)
 }

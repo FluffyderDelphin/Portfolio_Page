@@ -222,8 +222,11 @@ a:active {
      gap: 20px;
 
  }
+ .nav-logo{
+     font-size: 1.5rem;
+ }
  .nav-logo h1{
-     font-size: 3rem;
+     font-size: 2.5rem;
  }
 
  .ham-toggle{

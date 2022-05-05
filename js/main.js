@@ -58,3 +58,9 @@ const navbarLinks = document.getElementsByClassName('nav-links')[0];
 toggleBtn.addEventListener('click', () => {
   navbarLinks.classList.toggle('active');
 });
+
+navLi.forEach((li) => {
+  li.querySelector('a').addEventListener('click', () => {
+    navbarLinks.classList.remove('active');
+  });
+});

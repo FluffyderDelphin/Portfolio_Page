@@ -29,6 +29,9 @@
     width: 100%;
 }
 .nav-logo h1{
+    font-size: 1.5rem;
+}
+.nav-logo i {
     font-size: 2rem;
 }
 .nav-links ul {
@@ -51,6 +54,11 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+}
+
+.ham-toggle {
+    top: 0.7rem;
+    right: 1.1rem;
 }
 
 
@@ -113,3 +121,4 @@
 .animation-container{
     padding-top: 350px
 }
+

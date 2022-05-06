@@ -168,6 +168,11 @@ a {
    transition-property: border-color,transform,scale;
 }
 
+.back-link{
+    display: flex;
+    align-items: center;
+}
+
 /* a:visited {
   color: #6b6b6b;
 } */

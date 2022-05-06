@@ -9,6 +9,7 @@
     --text-secondary-color:#f8f9fa;
     --primary-color:#f8f9fa;
     --secondary-color:#1f57f3;
+    --highlight-color:rgb(255, 219, 91);
     --link-color:#000;
     --link-color-light:rgb(240, 240, 240);
 
@@ -143,6 +144,9 @@ h3 {
     color: var(--primary-color);
 }
 
+.highlight{
+    color: var(--highlight-color) !important;
+}
 
  /* Link Styling  */
 

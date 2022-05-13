@@ -49,26 +49,26 @@
       </nav>
     </header>
     <main class="caseStudy-container container case-font">
-      <h1 class="case-title">Case Study : React Movie App Project</h1>
+      <h1 class="case-title">Case Study: React Movie App project</h1>
       <section class="case-section">
         <div class="case-img">
           <img src="img\project_screenshots\Movie_App_React.PNG" alt="" />
           <p class="img-text">Finished Website</p>
         </div>
         <div class="case-text-block">
-          <h2 class="case-titles">What is this Project ?</h2>
+          <h2 class="case-titles">What is this project?</h2>
           <p class="case-text">
-            This React Movie App lets a User Register and Sign In to see a
-            Display of Movies, that are stored in a Databank. It comes in with
-            Features like Adding a Movie to your Favorites or editing your
-            Profile.
+            This React movie app lets a user register and sign in to see a
+            display of movies, that are stored in a database. It comes in with
+            features like adding a movie to your favorites or editing your
+            profile.
           </p>
-          <h2 class="case-titles">Goals of this Project</h2>
+          <h2 class="case-titles">Goals of this project</h2>
           <p class="case-text">
-            This Project was my first Introduction to the Mern Stack, a Group of
-            Technolgies thats Lets Developers create Fullstack Aplications. So
-            the Porpose of this Project was to learn and showcase my Experience
-            in that set of Technolgies.
+            This project was my first introduction to the MERN-Stack, a group of
+            technologies that let developers create Full-Stack applications. So
+            the purpose of this project was to learn and showcase my experience
+            in that set of technologies.
           </p>
         </div>
       </section>
@@ -77,17 +77,17 @@
         <div class="case-text-block">
           <h3 class="case-titles">Building the Backend</h3>
           <p class="case-text">
-            First Step of the Project was to build the Backend of the
+            The first step of the project was to build the Backend of the
             Application: A Mongo DB Database interacting with Node.JS that lets
             me save, read, update and delete Data. So first I had to create a
-            list of Movies, containing Information about like Director, Genre
-            and a brief Description. To be on the Save side, I used an URL for
-            the Images that gives me random unlicensed Images for each Movie.
-            Secondly, I created the User which contains typical Information you
-            normally register on Sites, like Birthday Password and Username.
-            Additionally, each of them as an Empty list of Favorites Movies.
-            Later the List will contain an Id of Movies the user has selected as
-            his Favorites.
+            list of movies, containing information about like director, genre
+            and a brief description. To be on the safe side, I used an URL for
+            the images that give me random unlicensed Images for each movie.
+            Secondly, I created the user which contains typical information you
+            normally register on Sites, like birthday, password and username.
+            Additionally, each of them as an empty list of favorites movies.
+            Later the list will contain an ID of movies the user has selected as
+            his favorite.
           </p>
         </div>
         <div class="case-img">
@@ -97,16 +97,16 @@
         <div class="mid-block">
           <div class="case-text-block case-test">
             <p class="case-text">
-              After that I began coding the RESTful API, which interacts with
-              that Database, using Node.js and Express. With that I created the
+              After that, I began coding the RESTful API, which interacts with
+              that Database, using Node.js and Express. With that, I created the
               Endpoints I needed to let the Application interact with the
-              Database in terms of Updating, reading etc. So later I can use
-              HTTP Methods of these Endpoints later in the Frontend Part of the
+              Database in terms of Updating, reading, etc. So later I can use
+              HTTP Methods of these Endpoints later in the Frontend part of the
               App. To test these Endpoints, I used Postman to check if the
-              Correct data is returned and to make sure everything work as
-              expected. For the Login Process, the API “hashes” the Password
-              (make it readable only for the API) and returns a JWT Token. The
-              Token is later used to check if the User is logged in or not.
+              correct data is returned and to make sure everything works as
+              expected. For the login process, the API “hashes” the Password
+              (make it readable only for the API) and returns a JWT-Token. The
+              token is later used to check if the User is logged in or not.
             </p>
           </div>
 
@@ -119,9 +119,9 @@
           <p class="case-text">
             So, after being mostly done with the API before going to the next
             Step it was Important to document it. I created a HTML document
-            Table which describes in Detail what each Endpoint was doing. That
-            later helped me when building in the Endpoints to the Frontend Part.
-            After being done it uploaded it to Heroku.
+            table which describes in Detail what each Endpoint was doing. That
+            later helped me when building in the Endpoints to the
+            Frontend-Website. After being done it uploaded it to Heroku.
           </p>
         </div>
         <div class="case-flex-img">
@@ -141,14 +141,15 @@
         <div class="case-text-block case-test">
           <p class="case-text">
             For building the Frontend I learned to use one of the most popular
-            Frameworks: React. So, I familiarized myself with building
-            Components, how to use State and Props and how to use the Component
-            Life Circle Methods. I used a Mix of class and functional Components
-            in this App to learn how to use both. Each Features of the App got
-            its own Component, for example the Movies get displayed in a Card
-            that are in turn Displayed in the Movie Component that shows the
-            whole List in the Main Component. I used Axios as a way to send HTTP
-            Request to my API to interact with the Data. <br />
+            framework: React. So, I familiarized myself with building
+            components, how to use State and Props, and how to use the React
+            "Component Life Circle" methods. I used a mix of class and
+            functional components in this app to learn how to use both. Each
+            feature of the App got its own component, for example, the movies
+            get displayed in a card that is in turn displayed in the movie
+            component that shows the whole list in the main component. I used
+            Axios as a way to send an HTTP request to my API to interact with
+            the data. <br />
           </p>
         </div>
         <div class="case-img">
@@ -159,20 +160,20 @@
 
       <div class="case-text-block">
         <p class="case-text">
-          To navigate the App, I used React Router which sends the User
-          automatically to the Login Page if there is no Token stored (meaning
-          he is not logged in) So, I got the Data from the logged in User stored
-          alongside the JWT Token. How do I use the List of Favorited Movies the
-          User has and display the Tittles in his Profile? Because right now the
+          To navigate the app, I used React Router which sends the user
+          automatically to the login page if there is no token stored (meaning
+          he is not logged in) So, I got the data from the logged in user stored
+          alongside the JWT Token. How do I use the list of favorite movies the
+          user has and displays the titles in his profile? Because right now the
           list only contains ids. The solution to this was to also save all the
-          Movies to the Local Storage and Compare the Id of both Lists. That
+          movies to the Local Storage and compare the ID of both lists. That
           saves time from making API calls and it also enables me to check if
-          the Movie is in the List inside the Card Component. That way the
-          Option to either add or remove the Movie to the List of Favorites can
+          the movie is in the list inside the card component. That way the
+          option to either add or remove the movie to the list of favorites can
           change dynamically. After again being mostly done, I used Redux to
-          change how State is managed in the App. Which is not exactly necessary
-          for such a small App, but it enabled me to learn it for building
-          bigger Applications in the Future. <br />
+          change how State is managed in the app. Which is not exactly necessary
+          for such a small app, but it enabled me to learn it for building
+          bigger applications in the future. <br />
         </p>
       </div>
       <div class="case-img">
@@ -186,18 +187,18 @@
       <h3 class="case-titles">Duration</h3>
       <div class="case-text-block">
         <p class="case-text">
-          This Project was projected to take about 2 Month in Total. But it took
-          me some week longer to really figure out the in and outs of Basic
-          React. But afterwards I got more confident in using it for later
-          Projects.
+          This project was projected to take about 2 months in total. But it
+          took me some weeks longer to figure out the ins and outs of basic
+          React. But afterward, I got more confident in using it for later
+          projects.
         </p>
       </div>
 
       <h3 class="case-titles">Roles</h3>
       <p class="case-text">
-        During this Project I worked with my Tutor who helped me figuring out
-        some of the Problems during this Project and gave me Feedback on how I
-        could improve my Code.
+        During this project, I worked with my tutor who helped me figure out
+        some of the problems during this project and gave me feedback on how I
+        could improve my code.
       </p>
     </main>
 

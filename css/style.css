@@ -287,16 +287,20 @@ header a:visited{
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 700px;
-    margin: 0 auto;
     padding-top: var(--padding-header-offset);
+    gap: 100px;
 
 }
 
 .profile-image{
-    width: 250px;
-    margin-right: 40px;
-    border-radius: 50%;
+    max-width: 50%;
+
+}
+.profile-image img{
+     border-radius: 50%;
+}
+.profile-text{
+    text-align: center;
 }
 
 .profile-text h2{
@@ -315,10 +319,7 @@ footer{
     margin-top: 40px;
     flex: 0 1 auto;
 }
-.profile-text{
-    text-align: center;
-    flex-direction: column;
-}
+
 
 .icon-container i{
     cursor: pointer;

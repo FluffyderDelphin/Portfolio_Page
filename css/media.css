@@ -61,6 +61,11 @@
     margin-top: var(--margin-header-media-offset)
 
 }
+
+.profile-image{
+    max-width: 80%;
+
+}
 .work-container{
     margin-top: var(--margin-header-media-offset)
 }

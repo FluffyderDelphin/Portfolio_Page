@@ -292,11 +292,11 @@ header a:visited{
 
 }
 
-.profile-image{
+.profile-image-block{
     max-width: 50%;
 
 }
-.profile-image img{
+.profile-image{
      border-radius: 50%;
 }
 .profile-text{

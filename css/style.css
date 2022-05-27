@@ -343,6 +343,11 @@ main{
     text-align: center;
     padding-top: var(--padding-header-offset);
 }
+.about-cv{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 
 .about-cv .button{
     background-color: var(--text-primary-color);
